@@ -1,11 +1,11 @@
 .container {
-  display: flex; 
+  display: flex;
   flex-direction: column;  
 }
 
 .toolbar ul {
-  height:0.0608vh;  
-  display: flex; 
+  height: 0.0608vh;  
+  display: flex;
   float: center; 
   padding-left: 33.4em; 
   padding-bottom: 1em;  
@@ -13,7 +13,7 @@
 
 .toolbar li {
   font-size: 1rem;
-  color: #1A2236;
+  color: #1a2236;
   list-style: none;     
  }
 
@@ -36,16 +36,16 @@
 .name {
   font: 'Playfair Display', sans-serif;
   font-size: 6.875rem;
-  color: #1A2236;   
+  color: #1a2236;   
 }
 
 .btn {
   font: 'Poppins', sans-serif;
   font-size: 1.125rem;
   line-height: 1.6875rem;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
-  background: #1A2236;
+  background: #1a2236;
   align-self: flex-start;
   padding: 0.5em 1em;
 }
@@ -54,7 +54,7 @@
   font:'Poppins', sans-serif;
   font-size: 0.875rem;
   line-height: 1.3125rem;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .square-of-dots {
