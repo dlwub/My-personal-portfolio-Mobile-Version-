@@ -6,10 +6,10 @@
 .toolbar ul {
   height: 0.0608vh;
   display: flex;
-  float: center; 
+  float: center;
   padding-left: 33.4em;
   padding-bottom: 1em;
- }
+}
 
 .toolbar li {
   font-size: 1rem;
@@ -17,8 +17,8 @@
   list-style: none;
 }
 
-.toolbar a { 
-  padding-left: 3em; 
+.toolbar a {
+  padding-left: 3em;
   text-decoration: none;
 }
 
