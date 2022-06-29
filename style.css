@@ -1,24 +1,23 @@
 .container {
   display: flex;
-  flex-direction: column;  
-}
+  flex-direction: column; 
+ }
 
 .toolbar ul {
-  height: 0.0608vh;  
+  height: 0.0608vh;
   display: flex;
   float: center; 
-  padding-left: 33.4em; 
+  padding-left: 33.4em;
   padding-bottom: 1em;  
 }
 
 .toolbar li {
   font-size: 1rem;
   color: #1a2236;
-  list-style: none;     
+  list-style: none;
  }
-
 .toolbar a { 
-  padding-left:3em;  
+  padding-left:3em; 
   text-decoration: none;
 }
 
@@ -36,8 +35,8 @@
 .name {
   font: 'Playfair Display', sans-serif;
   font-size: 6.875rem;
-  color: #1a2236;   
-}
+  color: #1a2236;
+ }
 
 .btn {
   font: 'Poppins', sans-serif;
