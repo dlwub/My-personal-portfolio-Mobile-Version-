@@ -24,11 +24,11 @@
     margin: 2em 1em;
   }
   .name {
-      font: 'Playfair Display', sans-serif;
-      font-size: 3.125rem;
-      line-height: 3.125rem;
-      color: #1a2236;
-    }
+     font: 'Playfair Display', sans-serif;
+     font-size: 3.125rem;
+     line-height: 3.125rem;
+     color: #1a2236;
+  }
   .self-description {
     font: 'Poppins', sans-serif;
     font-size: 0.875rem;
