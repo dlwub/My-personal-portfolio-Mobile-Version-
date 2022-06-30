@@ -12,23 +12,28 @@
     display: flex;
     justify-content: space-between;
   }
+  
   .geomerty_1 {
     margin-top: 0;
     margin-left: 0;
     width: 34.68%; 
   }
+  
   .svg_1 {  
     margin-top: 1.25em;
   }
+  
   .main-section {
     margin: 2em 1em;
   }
+  
   .name {
     font: 'Playfair Display', sans-serif;
     font-size: 3.125rem;
     line-height: 3.125rem;
     color: #1a2236;
   }
+  
   .self-description {
     font: 'Poppins', sans-serif;
     font-size: 0.875rem;
@@ -46,6 +51,7 @@
     background: #1a2236;
     width: 100%; 
  } 
+ 
  .geometry-images-2 {
     width: 100%;
   }
