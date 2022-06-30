@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">  
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -10,30 +8,24 @@
         <title>A personal protfolio site</title>
     </head>
     <body>
-        <div class="container">
-            <nav class="toolbar">
-                <ul>
-                    <li><a href="#">Hello</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="headline">
-                <div class="self-introduction">
-                    <h1 class="name">Desta Legesse Wubishet</h1>
-                    <p class="self-description">Hello! I am a software developer! I can help you build a product, feature or website. 
-                        Taka a look of my works. If you like what you see and have a project you need coded, 
-                        don’t hesitate and contact me.
-                    </p>
-                    <button class="btn">Start Collaboration</button>
-                    <img class="square-of-dots" src="images/image_dots.png" alt="Square of dots">
-                </div>
-                <div class="shape-images">
-                    <img src="images/image-geometry_1.png" alt="Beautiful shapes">
-                </div>
-            </div>
+        <section class="container">
+            <header class="header">
+                <img class="geomerty_1" src="images/image_geometry_1.png" alt="Geometry Image One">
+                <svg class="svg_1" width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H20V2H0V0ZM0 6.00002H20V8.00002H0V6.00002ZM20 12H0V14H20V12Z" fill="#1A2236"/>
+                </svg>
 
-        </div>
+            </header>
+            <section class="main-section">
+                <h1 class="name">Desta Legesse Wubishet</h1>
+                <p class="self-description">Hello! I am a software developer! I can help you build a product, feature or website. 
+                    Taka a look of my works. If you like what you see and have a project you need coded, 
+                    don’t hesitate and contact me.
+                </p>
+                <button class="btn">Start Collaboration</button>
+            </section>            
+            <img src="images/image_geometry_2.png" alt="Beautiful shapes">
+            
+        </section>
     </body>
 </html>
