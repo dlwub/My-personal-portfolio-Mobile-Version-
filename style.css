@@ -45,25 +45,25 @@
   color: #fff;
   text-align: center;
   background: #1a2236;
-  width: 100%;  
-} 
+  width: 100%; 
+ } 
 
-.geometry-images-2 {
-  width: 100%;
-}
+  .geometry-images-2 {
+    width: 100%;
+  }
 
-.btn:link {
-  fill: solid #1a2236;
-  stroke: solid #1a2236;
-}
+  .btn:link {
+    fill: solid #1a2236;
+    stroke: solid #1a2236;
+  }
 
-.btn:hover {
-  background: #1a2236;
-  color: #fff;
-}
+  .btn:hover {
+    background: #1a2236;
+    color: #fff;
+  }
 
-.btn:active {
-  background: #1a2236;
-  color: #fff;
-}
+  .btn:active {
+    background: #1a2236;
+    color: #fff;
+  }
 }
