@@ -1,68 +1,74 @@
+@media only screen and (min-width: 320px) {
+  body {
+    font: 16px;
+  }
+
 .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+  
+.geomerty_1 {
+  margin-top: 0;
+  margin-left: 0;
+  width: 34.68%;  
 }
 
-.toolbar ul {
-  height: 0.0608vh;
-  display: flex;
-  float: center;
-  padding-left: 33.4em;
-  padding-bottom: 1em;
+.svg_1 {  
+  margin-top: 1.25em;  
 }
 
-.toolbar li {
-  font-size: 1rem;
-  color: #1a2236;
-  list-style: none;
-}
-
-.toolbar a {
-  padding-left: 3em;
-  text-decoration: none;
-}
-
-.headline {
-  display: flex;
-}
-
-.self-introduction {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  padding-left: 10em;
+.main-section {
+  margin: 2em 1em;
 }
 
 .name {
-  font: 'Playfair Display', sans-serif;
-  font-size: 6.875rem;
-  color: #1a2236;
+    font: 'Playfair Display', sans-serif;
+    font-size: 3.125rem;
+    line-height: 3.125rem;
+    color: #1a2236;
+}
+
+.self-description {
+    font:'Poppins', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    color: #1a2236;    
 }
 
 .btn {
   font: 'Poppins', sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.6875rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.75rem 0.5rem;
   color: #fff;
   text-align: center;
   background: #1a2236;
-  align-self: flex-start;
-  padding: 0.5em 1em;
+  width: 100%;  
+} 
+
+.geometry-images-2 {
+  width: 100%;
 }
 
-.self-description {
-  font: 'Poppins', sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.3125rem;
-  color: #1a2236;
+.btn:link {
+  fill: solid #1a2236;
+  stroke: solid #1a2236;
 }
 
-.square-of-dots {
-  align-self: flex-end;
+.btn:hover {
+  background: #1a2236;
+  color: #fff;
 }
 
-.shape-images {
-  padding-top: 0;
-  margin-top: 0;
-  width: 0.4875vw;
+.btn:active {
+  background: #1a2236;
+  color: #fff;
+}
+
 }
