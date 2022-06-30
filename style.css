@@ -3,21 +3,21 @@
     font: 16px;
   }
 
-.container {
+  .container {
     display: flex;
     flex-direction: column;
-}
+  }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
   
-.geomerty_1 {
-  margin-top: 0;
-  margin-left: 0;
-  width: 34.68%;  
-}
+  .geomerty_1 {
+    margin-top: 0;
+    margin-left: 0;
+    width: 34.68%; 
+  }
 
 .svg_1 {  
   margin-top: 1.25em;  
@@ -70,5 +70,4 @@
   background: #1a2236;
   color: #fff;
 }
-
 }
