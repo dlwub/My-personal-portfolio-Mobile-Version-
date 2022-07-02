@@ -22,7 +22,8 @@
   .geomerty_1 {
     margin-top: 0;
     margin-left: 0;
-    width: 34.68%;
+    /* stylelint-disable-next-line unit-no-unknown */
+    width: 0.34.68vw;
   }
   /* stylelint-disable-next-line no-eol-whitespace */
   
@@ -83,5 +84,300 @@
     background-image: url("./images/image_geometry_2.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  h3 {
+    font: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+
+  .project-img {
+    /* stylelint-disable-next-line no-eol-whitespace */
+    width: 100%;
+  }
+
+  .grid-container {
+    margin-top: 0;
+    display: grid;
+    /* stylelint-disable-next-line declaration-colon-newline-after */
+    grid-template: 1.25rem 1em 1em 1.75em 1.25em 2.75em 1.25em /
+      1.25em 6.25em 0.625em 7.75em 0.625em 6.5em 3.75em;
+    background-color: #1a2236;
+    padding: 1.25em;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+  }
+
+  .project-heading {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 3.5em;
+    line-height: 100%;
+    /* stylelint-disable-next-line color-hex-case */
+    color: #1A2236;
+  }
+
+  .project-name {
+    font: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-top: 0;
+    line-height: 80%;
+    color: #fff;
+    grid-row: 2/3;
+    grid-column: 2/-2;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .tech-1, .tech-2, .tech-3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 80%;
+    color: #000;
+    padding: 0.5em 0.5em;
+    /* stylelint-disable-next-line color-hex-case */
+    background: #92DCDC;
+  }
+
+  .tech-1 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+
+  .tech-2 {
+    grid-row: 4/5;
+    grid-column: 4/5;
+  }
+
+  .tech-3 {
+    grid-row: 4/5;
+    grid-column: 6/7;
+  }
+
+  .project-btn {
+    background-color: #1a2236;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5em;
+    border: 1px solid #fff;
+    grid-row: 6/7;
+    grid-column: 2/6;
+  }
+
+  .about-heading {
+    margin-top: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 3.125rem;
+    line-height: 100%;
+    color: #1a2236;
+  }
+
+  .about-paragraph {
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+    padding-bottom: 2em;
+  }
+
+  .get-cv {
+    position: relative;
+    margin: 2em 1em;
+  }
+
+  .parent-image {
+    position: relative;
+    width: 100%;
+  }
+  /* stylelint-disable-next-line no-eol-whitespace */
+  
+  .child-image {
+    position: absolute;
+    top: 0.8125em;
+    left: 5em;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .languages, .frameworks, .skills {
+    color: #fff;
+    padding: 3.5em 3.5em;
+    margin: 1em;
+  }
+
+  .languages {
+    background: url(./images/hashtag.png) right bottom no-repeat;
+    background-color: #1c528a;
+  }
+
+  .frameworks {
+    background: url(./images/ic_framework.png) right bottom no-repeat;
+    background-color: #e2505c;
+  }
+
+  .skills {
+    background: url(./images/ic_skills.png) right bottom no-repeat;
+    background-color: #febf52;
+  }
+  /* stylelint-disable-next-line no-eol-whitespace */
+  
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .language, .framework, .skill {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 1.6875em;
+    letter-spacing: -0.0525em;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .language-heading, .framework-heading, .skill-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 1.875em;
+  }
+  /* stylelint-disable-next-line no-eol-whitespace */
+  
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    margin: 3.5em 1em 3.125em;
+  }
+  /* stylelint-disable-next-line rule-empty-line-before */
+  .get-started {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .geomerty_2 {
+    width: 37.1875%;
+    align-self: flex-start;
+    margin-bottom: 3.5em;
+  }
+  /* stylelint-disable-next-line rule-empty-line-before */
+  .get-started-heading {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5em;
+    line-height: 100%;
+    color: #1a2236;
+    margin-top: 0;
+    margin-left: 1.125em;
+  }
+
+  .get-started-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.3125em;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+    margin: 0 auto 2em 1em;
+  }
+
+  .second-btn {
+    margin: 1.25em 0.75em 4em 0.125em;
+  }
+
+  .name-input-container {
+    position: relative;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .name-input, .email-input, .message-input {
+    margin: 0.25em 1em;
+    border-radius: 4px;
+    padding-left: 2.25em;
+  }
+
+  .name-input {
+    padding-top: 0;
+  }
+  /* stylelint-disable-next-line no-duplicate-selectors */
+  .name-input {
+    border: 1px solid #dfdfe0;
+    width: 85%;
+    height: 3.25em;
+    position: relative;
+  }
+  /* stylelint-disable-next-line no-eol-whitespace */
+  
+  .name-placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.3125em;
+    color: #1a2236;
+    position: absolute;
+    top: 1em;
+    left: 3em;
+  }
+
+  ::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.625em;
+    line-height: 0.9375em;
+    color: #7d7c84;
+  }
+
+  .email-input {
+    border: 1px solid #1a2236;
+    height: 3.25em;
+  }
+
+  .message-input {
+    border: 1px solid #dfdfe0;
+    height: 7em;
+  }
+  /* stylelint-disable-next-line rule-empty-line-before */
+  .social-media {
+    margin-top: 0;
+    display: grid;
+    /* stylelint-disable-next-line declaration-colon-newline-after */
+    grid-template: 2em 1.5em 2em 1.5em 2.5em/
+      1em 1.5em 1.875em 1.5em 1.875em 1.5em 1.875em 1.5em 1.875em 1.5em 1.875em 1.5em 1em;
+    background-color: #1a2236;
+    justify-content: space-between;
+  }
+
+  .get-cv-btn {
+    grid-row: 2/3;
+    grid-column: 2/7;
+  }
+  /* stylelint-disable-next-line rule-empty-line-before */
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .stackoverflow, .github, .twitter, .linkedin, .medium, .angellist {
+    grid-row: 4/5;
+  }
+  /* stylelint-disable-next-line rule-empty-line-before */
+  .stackoverflow {
+    grid-column: 2/3;
+  }
+
+  .github {
+    grid-column: 4/5;
+  }
+
+  .twitter {
+    grid-column: 6/7;
+  }
+
+  .linkedin {
+    grid-column: 8/9;
+  }
+
+  .medium {
+    grid-column: 10/11;
+  }
+  /* stylelint-disable-next-line rule-empty-line-before */
+  .angellist {
+    grid-column: 12/13;
   }
 }
