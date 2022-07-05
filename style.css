@@ -281,6 +281,11 @@
     margin: 0 auto 2em 1em;
   }
 
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+
   .second-btn {
     margin: 1.25em 0.75em 4em 0.125em;
   }
