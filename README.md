@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# A personal portfolio page (Mobile version) with CSS Grid
+# A personal portfolio page (Responsive design)
 
-This project is a personal portfolio site. We use CSS grid to create a responsive design that is accessible on all devices.
+This project is a personal portfolio site. It is a responsive design. We used media query with a break point of 768px.
