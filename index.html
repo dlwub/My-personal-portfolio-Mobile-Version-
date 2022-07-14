@@ -9,141 +9,219 @@
         <link href="style.css" rel="stylesheet">  
         <title>A personal protfolio site</title>
     </head>
-    <body>       
-        <header class="toolbar">
-            <a><img class="geomerty_1" src="images/image_geometry_1.png" alt="Geometry Image One"></a>
-            <nav class="navigation">
-                <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H20V2H0V0ZM0 6.00002H20V8.00002H0V6.00002ZM20 12H0V14H20V12Z" fill="#1A2236"/>
-                </svg>
-        </nav>
+    <body>
+        <div class="container">
+            <section class="toolbar">
+                <a href="#"><img class="geomerty_1" src="images/image_geometry_1.png" alt="Geometry Image One"></a>
+                <nav class="navigation">
+                    <ul class="desktop-navigation">
+                        <li><a href="#"><span>Hell</span>o</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <svg class="mobile-navigation" width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H20V2H0V0ZM0 6.00002H20V8.00002H0V6.00002ZM20 12H0V14H20V12Z" fill="#1A2236"/>
+                    </svg>
+                </nav>
+            </section>
+            <div class="outer-container">
+                <div class="inner-container">
+                    <section class="self-introduction">
+                        <h2 class="name">Desta Legesse Wubishet</h2>
+                        <p class="self-description">Hello! I am a software developer! I can help you build a product, feature or website. 
+                            Take a look of my works. If you like what you see and have a project you need coded, 
+                            don’t hesitate and contact me.
+                        </p>
+                        <button class="btn">Start Collaboration</button>
+                    </section>
+                    <img class="with-dots-background" src="images/image_dots.png" alt="dots" /> 
+                </div>                      
+                    <img class="with-image-background" src="images/image-geometry_1.png" alt="Background image"/>
+                    <section class="with-image-background-ii"></section>
+            </div>
+            <section class="projects">
+                <div class="project-cell-i">
+                    <h2 class="project-heading">Projects</h2>
+                    <img class="img-dots-i" src="images/image_dots-1.png" alt="" />
+                </div>
+                <img class="project-img project-i-img" src="images/Rectangle21.png" alt="" />
+                <div class="grid-container project-i">
+                    <h3 class="project-name">Project I</h3>
+                    <span class="tech-1">HTML/CSS</span>
+                    <span class="tech-2">Ruby on Rails</span>
+                    <span class="tech-3">JavaScript</span>
+                    <button class="project-btn">See this project -></button>
+                </div>                
+                <div class="project-cell-iii">
+                    <img class="project-img project-ii-img" src="images/Rectangle22.png" alt="" />
+                    <div class="grid-container project-ii">
+                        <h3 class="project-name">Project II </h3>
+                        <span class="tech-1">HTML/CSS</span>
+                        <span class="tech-2">Ruby on Rails</span>
+                        <span class="tech-3">JavaScript</span>
+                        <button class="project-btn">See this project -></button>
+                    </div>
+                </div>
+                <div class="project-cell-iv">
+                    <div class="half-circle-background"></div>
+                    <img class="img-dots-ii" src="images/image_dots-1.png" alt="Square of dots" />
+                    <div class="lemniscate-background"></div>
+                    <img class="inverted-square" src="images/inverted-square.png" alt="Diamond shape" />     
+                </div> 
+                <div class="project-cell-vi">          
+                    <img class="project-img project-iii-img" src="images/Rectangle23.png" alt="" />
+                    <div class="grid-container project-iii">
+                        <h3 class="project-name">Project III</h3>
+                        <span class="tech-1">HTML/CSS</span>
+                        <span class="tech-2">Ruby on Rails</span>
+                        <span class="tech-3">JavaScript</span>
+                        <button class="project-btn">See this project -></button>
+                    </div>
+                </div>
+                <div class="project-cell-vii">
+                    <img class="joined-rectangles" src="images/Group83.png" alt=""/>
+                    <div class="inverted-red-square"></div>
+                </div> 
+                <div class="project-cell-x">             
+                    <img class="project-img project-iv-img" src="images/Rectangle24.png" alt="" />
+                    <div class="grid-container project-iv">
+                        <h3 class="project-name">Project IV</h3>
+                        <span class="tech-1">HTML/CSS</span>
+                        <span class="tech-2">Ruby on Rails</span>
+                        <span class="tech-3">JavaScript</span>
+                        <button class="project-btn">See this project -></button>
+                    </div>
+                </div>                 
+                <img class="project-img project-v-img" src="images/Rectangle25.png" alt="" />
+                <div class="grid-container project-v">                
+                    <h3 class="project-name project-v-name">Project V</h3>
+                    <span class="tech-1 project-v-tech-1">HTML/CSS</span>
+                    <span class="tech-2 project-v-tech-2">Ruby on Rails</span>
+                    <span class="tech-3 project-v-tech-3">JavaScript</span>
+                    <button class="project-btn project-v-btn">See this project -></button>
+                </div>                
+                <img class="project-img project-vi-img" src="images/Rectangle26.png" alt="" />
+                <div class="grid-container project-vi">
+                    <h3 class="project-name">Project VI</h3>
+                    <span class="tech-1">HTML/CSS</span>
+                    <span class="tech-2">Ruby on Rails</span>
+                    <span class="tech-3">JavaScript</span>
+                    <button class="project-btn">See this project -></button>
+                </div>
+                <img class="project-cell-viii" src="images/image-geometry_5.png" alt="Geometric shapes"/>
+                <div class="project-cell-ix"></div>
 
-        </header>
-        <section class="main-section">
-            <h2 class="name">Desta Legesse Wubishet</h2>
-            <p class="self-description">Hello! I am a software developer! I can help you build a product, feature or website. 
-                Take a look of my works. If you like what you see and have a project you need coded, 
-                don’t hesitate and contact me.
-            </p>
-            <button class="btn">Start Collaboration</button>
-        </section>
-        <section class="with-image-background">
-        </section>
-        <section class="projects">
-            <h2 class="project-heading">Projects</h2>
-            <img class="project-img" src="images/Rectangle21.png" alt="" />
-            <div class="grid-container">
-                <h3 class="project-name">Project I</h3>
-                <span class="tech-1">HTML/CSS</span>
-                <span class="tech-2">Ruby on Rails</span>
-                <span class="tech-3">JavaScript</span>
-                <button class="project-btn">See this project -></button>
-            </div>
-            <img class="project-img" src="images/Rectangle22.png" alt="" />
-            <div class="grid-container">
-                <h3 class="project-name">Project II </h3>
-                <span class="tech-1">HTML/CSS</span>
-                <span class="tech-2">Ruby on Rails</span>
-                <span class="tech-3">JavaScript</span>
-                <button class="project-btn">See this project -></button>
-            </div>
-            <img class="project-img" src="images/Rectangle23.png" alt="" />
-            <div class="grid-container">
-                <h3 class="project-name">Project III</h3>
-                <span class="tech-1">HTML/CSS</span>
-                <span class="tech-2">Ruby on Rails</span>
-                <span class="tech-3">JavaScript</span>
-                <button class="project-btn">See this project -></button>
-            </div>
-            <img class="project-img" src="images/Rectangle24.png" alt="" />
-            <div class="grid-container">
-                <h3 class="project-name">Project IV</h3>
-                <span class="tech-1">HTML/CSS</span>
-                <span class="tech-2">Ruby on Rails</span>
-                <span class="tech-3">JavaScript</span>
-                <button class="project-btn">See this project -></button>
-            </div>
-            <img class="project-img" src="images/Rectangle25.png" alt="" />
-            <div class="grid-container">
-                <h3 class="project-name">Project V</h3>
-                <span class="tech-1">HTML/CSS</span>
-                <span class="tech-2">Ruby on Rails</span>
-                <span class="tech-3">JavaScript</span>
-                <button class="project-btn">See this project -></button>
-            </div>
-            <img class="project-img" src="images/Rectangle26.png" alt="" />
-            <div class="grid-container">
-                <h3 class="project-name">Project VI</h3>
-                <span class="tech-1">HTML/CSS</span>
-                <span class="tech-2">Ruby on Rails</span>
-                <span class="tech-3">JavaScript</span>
-                <button class="project-btn">See this project -></button>
-            </div>            
-        </section> 
-        <section class="about-section">
-            <h3 class="about-heading">About</h3>
-            <p class="about-paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod
-            </p>
-            <div class="get-cv">
-                <img class="parent-image" src="images/Rectangle20.png" alt="parent-image" />
-                <img class="child-image" src="images/Group86.png" alt="child-image" />
-            </div>
-            
-            <div class="languages"> 
-                <h2 class="language-heading">Languages</h2>                
-                <ul> 
-                    <li class="language">JavaScript (ES5/ES6)</li>
-                    <li class="language">Ruby</li>
-                    <li class="language">HTML</li>
-                    <li class="language">CSS</li>
-                </ul>
+            </section>
+            <section class="about-section">
+                <section class="about-me">
+                    <h3 class="about-heading">About</h3>
+                    <p class="about-paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod
+                    </p>
+                    <div class="get-cv-i">
+                        <img class="parent-image" src="images/Rectangle20.png" alt="" />
+                        <img class="child-image" src="images/Get_CV.png" alt="" />
+                    </div>
+                </section>
+                <section class="language-framework-skill">
+                    <div class="languages"> 
+                        <h2 class="language-heading">Languages</h2>                
+                        <ul> 
+                            <li class="language">JavaScript (ES5/ES6)</li>
+                            <li class="language">Ruby</li>
+                            <li class="language">HTML</li>
+                            <li class="language">CSS</li>
+                        </ul>
 
-            </div>
-            <div class="skills">    
-                <h2 class="skill-heading">Skills</h2>             
-                <ul> 
-                    <li class="skill">Codekit</li>
-                    <li class="skill">Codepen</li>
-                    <li class="skill">GitHub</li>
-                    <li class="skill">GitLab</li>
-                    <li class="skill">Terminal</li>
-                </ul>
-            </div>
-            <div class="frameworks"> 
-                <h2 class="framework-heading">Frameworks</h2>                  
-                <ul> 
-                    <li class="framework">Bootstrap</li>
-                    <li class="framework">Ruby on rails</li>
-                    <li class="framework">RSpec</li>
-                    <li class="framework">Capibara</li>
-                    <li class="framework">Selenium</li>
-                </ul>
-            </div>
-        </section> 
-        <section class="get-started">
-            <img class="geomerty_1 geomerty_2" src="images/image_geometry_1.png" alt="Geometry Image Two" />
-            <h2 class="get-started-heading">Get Started</h2>
-            <p class="get-started-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-             sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-             <form action="https://formspree.io/f/mzboldvg" method="post" class="contact-form">
-                <input class="name-input" maxlength="30" type="text" name="name" placeholder="Your name" required />                
-                <input class="email-input" type="email" placeholder="Your email" required/>
-                <textarea class="message-input" maxlength="500" placeholder="Enter your message here..." required></textarea>
-                <button class="btn second-btn" type="submit">Start Collaboration</button>
-            </form>
-            
-             <div class="social-media">
-                <img class="get-cv-btn" src="images/Group10.png" alt="Get my CV button" />
-                <img class="media-icon stackoverflow" src="images/ic_stackoverflow.png" alt="Stackover icon" />
-                <img class="media-icon github" src="images/ic_github.png" alt="Github icon" />
-                <img class="media-icon twitter" src="images/ic_twitter.png" alt="Twitter icon" />
-                <img class="media-icon linkedin" src="images/ic_linkedin.png" alt="Linkedin icon" />
-                <img class="media-icon medium" src="images/ic_medium.png" alt="Medium icon" />
-                <img class="media-icon angellist" src="images/ic_angellist.png" alt="Angelist icon" />                
-            </div>
-        </section>             
+                    </div>
+                    <div class="skills">    
+                        <h2 class="skill-heading">Skills</h2>             
+                        <ul> 
+                            <li class="skill">Codekit</li>
+                            <li class="skill">Codepen</li>
+                            <li class="skill">GitHub</li>
+                            <li class="skill">GitLab</li>
+                            <li class="skill">Terminal</li>
+                        </ul>
+                    </div>
+                    <div class="frameworks"> 
+                        <h2 class="framework-heading">Frameworks</h2>                  
+                        <ul> 
+                            <li class="framework">Bootstrap</li>
+                            <li class="framework">Ruby on rails</li>
+                            <li class="framework">RSpec</li>
+                            <li class="framework">Capibara</li>
+                            <li class="framework">Selenium</li>
+                        </ul>
+                    </div>
+                    <div class="fourth-cell"> 
+                        <section class="blue-square-background"></section>                
+                        <img class="img-dots-iii" src="images/image_dots-1.png" alt="Square of dots"/>
+                    </div>
+                </section>
+            </section> 
+            <section class="get-started">
+                <img class="geomerty_1 geomerty_2" src="images/image_geometry_1.png" alt="Geometry Image Two" />
+                <div class="top-left">
+                    <div class="upper-triangle" ></div>
+                    <div class="inverted-square-ii" ></div>
+                    <div class="D-shape">
+                        <div class="lemniscate-background-ii" ></div>
+                    </div>
+                    
+                </div>
+                
+                <section class="get-started-main">
+                    <h2 class="get-started-heading">Get Started</h2>
+                    <p class="get-started-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <form action="https://formspree.io/f/mzboldvg" method="post" class="contact-form">
+                        <div class="name-and-email">
+                            <div class="name-input-container">
+                                <label class="name-label" for="name-input">Your name</label><br>
+                                <input class="name-input" maxlength="30" type="text" id="name-input" name="name" placeholder="Your name" required />
+                            </div>
+                            <div class="email-input-container">
+                                <label class="email-label" for="email-input">Your email</label><br>
+                                <input class="email-input" id="email-input" type="email" placeholder="Your email" required/>
+                            </div>
+                        </div>               
+                        <div class="message-container">
+                            <label class="message-label" for="message-input">Message</label><br>
+                            <textarea class="message-input" id="message-input" maxlength="500" placeholder="Enter your message here..." required></textarea>
+                        </div>
+                        
+                        <button class="btn second-btn" type="submit">Start Collaboration</button>
+                    </form>
+                </section>
+                <div class="bottom-right">
+                    <div class="blue-red-lemniscate">
+                        <div class="top-red-lemniscate"></div>
+                    </div>
+                    <div class="two-half-triangles">
+                        <div class="yellow-triangle"></div> 
+                        <div class="pink-triangle"></div>                                          
+                        <div class="red-center"></div>
+                    </div>
+                    <div class="red-D-shape"></div>
+                </div>
+                
+            </section>
+            <section class="social-media-and-cv">
+                <img class="get-cv-ii" src="images/Get_CV.png" alt="Get my CV button" />
+                <img class="get-resume" src="images/Get_Resume.png" alt="Get my resume button" />
+                <ul class="social-media-icons">
+                    <li><a href="#"><img class="media-icon stackoverflow" src="images/ic_stackoverflow.png" alt="Stackover icon" /></a></li>
+                    <li><a href="#"><img class="media-icon github" src="images/ic_github.png" alt="Github icon" /></a></li>
+                    <li><a href="#"><img class="media-icon twitter" src="images/ic_twitter.png" alt="Twitter icon" /></a></li>
+                    <li><a href="#"><img class="media-icon linkedin" src="images/ic_linkedin.png" alt="Linkedin icon" /></a></li>
+                    <li><a href="#"><img class="media-icon medium" src="images/ic_medium.png" alt="Medium icon" /></a></li>
+                    <li><a href="#"><img class="media-icon angellist" src="images/ic_angellist.png" alt="Angelist icon" /></a></li>               
+                </ul>                
+            </section>   
+        </div>
     </body>
 </html>
