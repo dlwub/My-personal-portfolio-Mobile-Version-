@@ -414,11 +414,8 @@ h3 {
   }
 
   /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .name-label, .email-label, .message-label {
-    display: block;
-  }
 
-  /*** Body ***/
+ /*** Body ***/
   * {
     box-sizing: border-box;
   }
@@ -982,7 +979,7 @@ h3 {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 6.4rem;
+    font-size: 6rem;
     line-height: 100%;
     text-align: center;
     padding-bottom: 2.5rem;
@@ -1014,6 +1011,7 @@ h3 {
 
     /* stylelint-disable-next-line selector-list-comma-newline-after */
     .name-label, .email-label, .message-label {
+    display: block;
     /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
     font-family: 'Poppins';
     font-style: normal;
