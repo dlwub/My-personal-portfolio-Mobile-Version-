@@ -2,8 +2,8 @@
 
 # A personal portfolio page (Desktop version) 
 
-This project is a personal portfolio site. It is responsive and we used a media query with a break-point of 768px.
-Below 768px the mobile version of the site appears and above 768px the desktop version is presented.
+This project is a personal portfolio site. A media query with a break-point of 768px is used.
+
 ## Built With
 
 - HTML & CSS
@@ -17,7 +17,7 @@ Below 768px the mobile version of the site appears and above 768px the desktop v
 
 ## Getting Started
 
-**One uploaded online, this Pages can be accessed through many Mobile devices with Screens as low as 320px.**
+**Once uploaded online, this Pages can be accessed through many Mobile devices with Screens as low as 320px.**
 
 
 
