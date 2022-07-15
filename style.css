@@ -340,13 +340,19 @@ h3 {
 }
 
 .email-input {
-  border: 1px solid #1a2236;
+  border: 1px solid #dfdfe0;
   height: 3.25em;
 }
 
 .message-input {
   border: 1px solid #dfdfe0;
   height: 7em;
+}
+
+/* stylelint-disable-next-line selector-list-comma-newline-after */
+.name-input:focus::placeholder, .email-input:focus::placeholder, .message-input:focus::placeholder {
+  opacity: 0;
+  border: 1px solid #1a2236;
 }
 
 /*** Footer section ***/
@@ -815,7 +821,24 @@ h3 {
     margin-bottom: 1em;
   }
 
-  .language-framework-skill {
+  .get-cv-btn-first {
+    position: relative;
+    width: 15.875em;
+    height: 4.375em;
+    max-width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    background: #1a2236;
+    align-self: flex-start;
+  }
+
+  .get-cv-i {
+    position: absolute;
+    top: -1em;
+    left: 1.25em;
+  }
+
+.language-framework-skill {
     display: grid;
     grid-template: 18em 18em / 18em 18em;
   }
@@ -902,19 +925,6 @@ h3 {
     color: #fff;
   }
 
-  .get-cv-i {
-    width: 56.95%;
-    margin-left: 0;
-    margin-top: 0;
-    height: 4.375em;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .child-image {
-    height: 1.2em;
-  }
-
   /*** Get started section ***/
 
   .get-started {
@@ -968,9 +978,13 @@ h3 {
   }
 
   .get-started-heading {
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.4rem;
     line-height: 100%;
     text-align: center;
-    font-size: 6.4rem;
     padding-bottom: 2.5rem;
     margin: 0;
   }
@@ -998,6 +1012,23 @@ h3 {
     justify-content: space-between;
   }
 
+    /* stylelint-disable-next-line selector-list-comma-newline-after */
+    .name-label, .email-label, .message-label {
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 1.125em;
+    margin-left: 5px;
+    color: #7d7c84;
+  }
+
+  .message-input {
+    padding-top: 10px;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
   .bottom-right {
     display: grid;
     grid-template: 11em 11em / 11em 11em;
@@ -1068,7 +1099,7 @@ h3 {
     align-items: center;
   }
 
-  .get-cv-btn {
+  .get-cv-btn-second {
     position: relative;
     width: 9em;
     max-width: 100%;
