@@ -381,7 +381,7 @@ h3 {
 /*** Elements hidden in mobile version ***/
 
 /* stylelint-disable-next-line selector-list-comma-newline-after */
-.with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-ii, .different-shapes, .different-shapes-ii {
+.with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii {
   display: none;
 }
 
@@ -398,7 +398,7 @@ h3 {
 @media only screen and (min-width: 768px) {
   /*** Elements visible in desktop version ***/
   /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-ii, .different-shapes, .different-shapes-ii {
+  .with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii {
     display: block;
   }
 
@@ -747,7 +747,7 @@ h3 {
     max-width: 100%;
   }
 
-  .project-btn:hover {
+  .blue-btn:hover {
     background: #1a2236;
     color: #fff;
     border: solid 1px #fff;
@@ -779,8 +779,8 @@ h3 {
   .about-section {
     display: flex;
     flex-direction: row-reverse;
-    padding: 9.375em 10em;
-    margin-top: 0;
+    padding: 13.5em 10em 9.375em 10em;
+    margin: 0;
   }
 
   .about-me {
@@ -858,6 +858,48 @@ h3 {
   /* stylelint-disable-next-line selector-list-comma-newline-after */
   .languages, .skills, .frameworks, .fourth-cell {
     margin: 0;
+    padding: 0;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .language, .skill, .framework {
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 1.6875;
+    letter-spacing: 0.0525em;
+    color: #fff;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .language-heading, .skill-heading, .framework-heading {
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.25em;
+    line-height: 1.875em;
+    color: #fff;
+    margin: 2.125em auto 1em 3.125em;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .languages ul, .skills ul, .frameworks ul {
+    margin: 0 auto 3.3125em 2.125em;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .languages li, .skills li, .frameworks li {
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 1.6875em;
+    letter-spacing: -0.0525em;
+    color: #fff;
   }
 
   .get-cv-i {
@@ -1021,22 +1063,36 @@ h3 {
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding: 3em 8em 3em 10em;
+    padding: 3em 0;
     justify-content: space-between;
     align-items: center;
   }
 
-  .social-media-icons {
-    display: flex;
-    width: 20.56%;
-    justify-content: space-between;
+  .get-cv-btn {
+    position: relative;
+    width: 9em;
+    max-width: 100%;
+    margin-top: 0;
+    margin-left: 10em;
+    padding: 0;
+    border: 0;
+    background: #1a2236;
   }
-  /* stylelint-disable-next-line no-eol-whitespace */
 
   .get-cv-ii {
-    width: 10%;
-    padding-right: 0.22%;
+    margin-top: 0;
+    position: absolute;
   }
+
+  .social-media-icons {
+    display: flex;
+    width: 18.5em;
+    max-width: 100%;
+    margin-right: 10em;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* stylelint-disable-next-line no-eol-whitespace */
 
   .media-icon {
     padding-left: 2em;
@@ -1044,7 +1100,7 @@ h3 {
 
   /*** Elements disabled in desktop version ***/
   /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .get-resume, .geomerty_1, .geomerty_2, .mobile-navigation, .with-image-background-ii, .project-ii, .project-iii, .project-iv, .project-vi {
+  .get-resume-btn, .get-resume, .geomerty_1, .geomerty_2, .mobile-navigation, .with-image-background-ii, .project-ii, .project-iii, .project-iv, .project-vi {
     display: none;
   }
 }
