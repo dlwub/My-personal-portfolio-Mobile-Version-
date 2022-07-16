@@ -903,6 +903,9 @@ h3 {
   }
 
   /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .language:hover, .skill:hover, .framework:hover {
+    transform: translate(0.5em, 0.25em);
+  }
 
   /* stylelint-disable-next-line selector-list-comma-newline-after */
   .language-heading, .skill-heading, .framework-heading {
