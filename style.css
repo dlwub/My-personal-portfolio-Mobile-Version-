@@ -475,6 +475,11 @@ h3 {
     margin: 12em 6em 1em 10em;
   }
 
+  .name {
+    animation-duration: 5s;
+    animation-name: change-color-font;
+  }
+
   .self-description {
     width: 484px;
     height: 493px;
@@ -778,6 +783,10 @@ h3 {
     line-height: 1.6875em;
   }
 
+  .project-img:hover {
+    transform: scale(0.8);
+  }
+
   /*** About section ***/
   .about-section {
     display: flex;
@@ -892,6 +901,8 @@ h3 {
     letter-spacing: 0.0525em;
     color: #fff;
   }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
 
   /* stylelint-disable-next-line selector-list-comma-newline-after */
   .language-heading, .skill-heading, .framework-heading {
@@ -1125,6 +1136,39 @@ h3 {
 
   .media-icon {
     padding-left: 2em;
+  }
+
+  @keyframes change-color-font {
+    from {
+      font-size: 6.875rem;
+      color: #1a2236;
+    }
+
+    25% {
+      font-size: 4.5em;
+      color: #f464e6;
+      transform: rotate(180deg);
+    }
+
+    50% {
+      font-size: 3em;
+      /* stylelint-disable-next-line declaration-colon-space-after */
+      color:#6499f4;
+      transform: rotate(180deg);
+    }
+
+    75% {
+      font-size: 4.5em;
+      /* stylelint-disable-next-line declaration-colon-space-after */
+      color:#64ebf4;
+      transform: rotate(180deg);
+    }
+
+    to {
+      font-size: 3em;
+      color: #9ef464;
+      transform: rotate(180deg);
+    }
   }
 
   /*** Elements disabled in desktop version ***/
