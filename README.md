@@ -12,7 +12,8 @@ This project is a personal portfolio site. A media query with a break-point of 7
 
 ## Live Demo 
 
-Go to https://dlwub.github.io to visit my personal portfolio site.
+Please go to https://dlwub.github.io/My-personal-portfolio-Mobile-Version-/
+to visit my portfolio site.
 
 
 ## Getting Started
