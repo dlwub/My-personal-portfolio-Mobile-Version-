@@ -10,9 +10,10 @@ This project is a personal portfolio site. A media query with a break-point of 7
 - Github
 - VScode
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+Please go to https://dlwub.github.io/My-personal-portfolio-Mobile-Version-/
+to visit my portfolio site.
 
 
 ## Getting Started
