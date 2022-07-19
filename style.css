@@ -1149,21 +1149,21 @@ h3 {
 
     25% {
       font-size: 4.5em;
-      color: #8A0A7E;
+      color: #420f3d;
       transform: rotate(180deg);
     }
 
     50% {
       font-size: 3em;
       /* stylelint-disable-next-line declaration-colon-space-after */
-      color:#0C4BB6;
+      color:#1a386d;
       transform: rotate(180deg);
     }
 
     75% {
       font-size: 4.5em;
       /* stylelint-disable-next-line declaration-colon-space-after */
-      color:#2B585A;
+      color:#0f3b3d;
       transform: rotate(180deg);
     }
 
