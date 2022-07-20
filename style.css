@@ -1157,6 +1157,7 @@ h3 {
       font-size: 3em;
       /* stylelint-disable-next-line declaration-colon-space-after */
       color:#0c4bb6;
+      /* stylelint-disable-next-line declaration-colon-space-after */
       transform: rotate(180deg);
     }
 
