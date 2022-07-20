@@ -4,7 +4,8 @@ body {
   font: 16px;
 }
 
-h1 {
+/* stylelint-disable-next-line selector-list-comma-newline-after */
+h1, h2 {
   font-weight: 400;
 }
 
@@ -231,12 +232,12 @@ h3 {
 
 .frameworks {
   background: url(./images/ic_framework.png) right bottom no-repeat;
-  background-color: #e2505c;
+  background-color: #8a1421;
 }
 
 .skills {
   background: url(./images/ic_skills.png) right bottom no-repeat;
-  background-color: #febf52;
+  background-color: #744a01;
 }
 /* stylelint-disable-next-line selector-list-comma-newline-after */
 .language, .framework, .skill {
@@ -1033,7 +1034,7 @@ h3 {
     font-size: 0.75em;
     line-height: 1.125em;
     margin-left: 5px;
-    color: #7d7c84;
+    color: #353437;
   }
 
   .message-input {
