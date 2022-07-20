@@ -4,7 +4,7 @@ body {
   font: 16px;
 }
 
-h2 {
+h1 {
   font-weight: 400;
 }
 
@@ -1149,27 +1149,27 @@ h3 {
 
     25% {
       font-size: 4.5em;
-      color: #f464e6;
+      color: #8A0A7E;
       transform: rotate(180deg);
     }
 
     50% {
       font-size: 3em;
       /* stylelint-disable-next-line declaration-colon-space-after */
-      color:#6499f4;
+      color:#0C4BB6;
       transform: rotate(180deg);
     }
 
     75% {
       font-size: 4.5em;
       /* stylelint-disable-next-line declaration-colon-space-after */
-      color:#64ebf4;
+      color:#2B585A;
       transform: rotate(180deg);
     }
 
     to {
       font-size: 3em;
-      color: #9ef464;
+      color: #285E03;
       transform: rotate(180deg);
     }
   }
