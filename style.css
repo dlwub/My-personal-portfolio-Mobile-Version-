@@ -199,23 +199,24 @@ h3 {
   font-size: 14px;
   line-height: 21px;
   color: #1a2236;
-  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.get-cv-btn-first {
+  position: relative;
+  width: 100%;
+  height: 3.125em;
+  max-width: 100%;
+  margin: 0 1em 2.5em 1em;
+  margin-left: 0;
+  background: #1a2236;
+  align-self: flex-start;
 }
 
 .get-cv-i {
-  position: relative;
-  margin: 2em 1em;
-}
-
-.parent-image {
-  position: relative;
-  width: 100%;
-}
-
-.child-image {
   position: absolute;
-  top: 0.8125em;
-  left: 5em;
+  top: 0.6em;
+  left: 10em;
 }
 
 /* stylelint-disable-next-line selector-list-comma-newline-after */
@@ -388,7 +389,7 @@ h3 {
 /*** Elements hidden in mobile version ***/
 
 /* stylelint-disable-next-line selector-list-comma-newline-after */
-.with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii {
+.with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii, .get-cv-btn-second {
   display: none;
 }
 
@@ -405,7 +406,7 @@ h3 {
 @media only screen and (min-width: 768px) {
   /*** Elements visible in desktop version ***/
   /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii {
+  .with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii, .get-cv-btn-second {
     display: block;
   }
 
@@ -841,8 +842,8 @@ h3 {
 
   .get-cv-i {
     position: absolute;
-    top: -1em;
-    left: 1.25em;
+    top: 1em;
+    left: 2.5em;
   }
 
 .language-framework-skill {
