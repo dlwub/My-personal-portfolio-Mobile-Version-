@@ -20,12 +20,7 @@ const createItems = (menu_items) => {
         a.innerText = menu_items[i];
         li.appendChild(a);
         li.addEventListener('click', function(){
-            for(let item of menu.querySelectorAll('li')){
-                if(item.textContent!==this.textContent){
-                    item.style.display = 'block';
-                }
-            }           
-            this.style.display = 'none';            
+            hideMenu();         
         })
         menu.appendChild(li);
     }
