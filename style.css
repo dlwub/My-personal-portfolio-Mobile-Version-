@@ -4,7 +4,8 @@ body {
   font: 16px;
 }
 
-h2 {
+/* stylelint-disable-next-line selector-list-comma-newline-after */
+h1, h2 {
   font-weight: 400;
 }
 
@@ -19,6 +20,7 @@ h2 {
   justify-content: space-between;
 }
 
+/* stylelint-disable-next-line selector-list-comma-newline-after */
 .geomerty_1 {
   display: block;
   margin-bottom: 2em;
@@ -32,6 +34,47 @@ h2 {
   display: block;
   padding-top: 1.1875em;
   padding-right: 1em;
+}
+
+.close_btn {
+  display: none;
+  padding-top: 1.1875em;
+  padding-right: 1em;
+}
+
+.menu-container {
+  display: none;
+}
+
+.active-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu {
+  list-style: none;
+  text-align: center;
+}
+
+.mobile-menu a {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  color: #000;
+  text-decoration: none;
+}
+
+.dot_img_1 {
+  margin-top: 0;
+  margin-left: 20em;
+}
+
+.dot_img_2 {
+  margin-left: 3.25em;
+  margin-bottom: 2em;
 }
 
 /* * * Introduction section * * */
@@ -198,23 +241,24 @@ h3 {
   font-size: 14px;
   line-height: 21px;
   color: #1a2236;
-  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.get-cv-btn-first {
+  position: relative;
+  width: 100%;
+  height: 3.125em;
+  max-width: 100%;
+  margin: 0 1em 2.5em 1em;
+  margin-left: 0;
+  background: #1a2236;
+  align-self: flex-start;
 }
 
 .get-cv-i {
-  position: relative;
-  margin: 2em 1em;
-}
-
-.parent-image {
-  position: relative;
-  width: 100%;
-}
-
-.child-image {
   position: absolute;
-  top: 0.8125em;
-  left: 5em;
+  top: 0.6em;
+  left: 10em;
 }
 
 /* stylelint-disable-next-line selector-list-comma-newline-after */
@@ -231,12 +275,12 @@ h3 {
 
 .frameworks {
   background: url(./images/ic_framework.png) right bottom no-repeat;
-  background-color: #e2505c;
+  background-color: #8a1421;
 }
 
 .skills {
   background: url(./images/ic_skills.png) right bottom no-repeat;
-  background-color: #febf52;
+  background-color: #744a01;
 }
 /* stylelint-disable-next-line selector-list-comma-newline-after */
 .language, .framework, .skill {
@@ -387,7 +431,7 @@ h3 {
 /*** Elements hidden in mobile version ***/
 
 /* stylelint-disable-next-line selector-list-comma-newline-after */
-.with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii {
+.with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii, .get-cv-btn-second {
   display: none;
 }
 
@@ -404,7 +448,7 @@ h3 {
 @media only screen and (min-width: 768px) {
   /*** Elements visible in desktop version ***/
   /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii {
+  .with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii, .get-cv-btn-second {
     display: block;
   }
 
@@ -840,8 +884,8 @@ h3 {
 
   .get-cv-i {
     position: absolute;
-    top: -1em;
-    left: 1.25em;
+    top: 1em;
+    left: 2.5em;
   }
 
 .language-framework-skill {
@@ -1033,7 +1077,7 @@ h3 {
     font-size: 0.75em;
     line-height: 1.125em;
     margin-left: 5px;
-    color: #7d7c84;
+    color: #353437;
   }
 
   .message-input {
@@ -1149,34 +1193,35 @@ h3 {
 
     25% {
       font-size: 4.5em;
-      color: #f464e6;
+      color: #8a0a7e;
       transform: rotate(180deg);
     }
 
     50% {
       font-size: 3em;
       /* stylelint-disable-next-line declaration-colon-space-after */
-      color:#6499f4;
+      color:#0c4bb6;
+      /* stylelint-disable-next-line declaration-colon-space-after */
       transform: rotate(180deg);
     }
 
     75% {
       font-size: 4.5em;
       /* stylelint-disable-next-line declaration-colon-space-after */
-      color:#64ebf4;
+      color:#2b585a;
       transform: rotate(180deg);
     }
 
     to {
       font-size: 3em;
-      color: #9ef464;
+      color: #285e03;
       transform: rotate(180deg);
     }
   }
 
   /*** Elements disabled in desktop version ***/
   /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .get-resume-btn, .get-resume, .geomerty_1, .geomerty_2, .mobile-navigation, .with-image-background-ii, .project-ii, .project-iii, .project-iv, .project-vi {
+  .get-resume-btn, .get-resume, .geomerty_1, .geomerty_2, .mobile-navigation, .menu-container, .active-menu, .close_btn,.with-image-background-ii, .project-ii, .project-iii, .project-iv, .project-vi {
     display: none;
   }
 }
