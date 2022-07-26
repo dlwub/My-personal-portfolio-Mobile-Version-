@@ -66,7 +66,9 @@ function showMenu(){
 function hideMenu(){
     openMenu = false;
     img_1.src = "images/image_geometry_1.png";    
-     
+    close_btn.style.display = 'none';
+    mobile_nav.style.display = "block";
+    menu_container.classList.remove('active-menu');  
 }
 
 
