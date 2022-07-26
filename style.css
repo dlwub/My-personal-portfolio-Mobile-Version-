@@ -77,6 +77,12 @@ h1, h2 {
   margin-bottom: 2em;
 }
 
+/* stylelint-disable-next-line selector-list-comma-newline-after */
+.dot_img_1, .dot_img_2 {
+  height: 2.5em;
+  width: 2.5em;
+}
+
 /* * * Introduction section * * */
 .name {
   font: 'Playfair Display', sans-serif;
@@ -493,7 +499,7 @@ h3 {
     padding: 2.375em 1.5625em;
   }
 
-  .desktop-navigation a:first-child span {
+  .active-page {
     text-decoration: underline;
   }
   /* stylelint-disable-next-line no-eol-whitespace */
