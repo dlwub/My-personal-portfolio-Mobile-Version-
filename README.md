@@ -3,6 +3,10 @@
 # A personal portfolio page (Responsive Design) 
 
 This project is a personal portfolio site. A media query with a break-point of 768px is used.
+A mobile menu and a popup window that shows project detail is included:
+image.png
+
+Screenshot (11).png
 
 ## Built With
 
