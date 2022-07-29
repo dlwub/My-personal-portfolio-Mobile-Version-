@@ -437,12 +437,17 @@ h3 {
 /*** Elements hidden in mobile version ***/
 
 /* stylelint-disable-next-line selector-list-comma-newline-after */
-.with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii, .get-cv-btn-second {
+.with-dots-background, .with-image-background, .half-circle-background, 
+.joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, 
+.different-shapes-ii, .get-cv-btn-second, .prev-btn, .next-btn {
   display: none;
 }
 
 /* stylelint-disable-next-line selector-list-comma-newline-after */
-.upper-triangle, .lemniscate-background, .inverted-square, .inverted-square-ii, .inverted-red-square, .D-shape-container, .blue-red-lemniscate, .two-half-triangles, .red-D-shape, .fourth-cell, .connected-shapes, .yellow-lemniscate-background, .project-cell-viii {
+.upper-triangle, .lemniscate-background, .inverted-square, 
+.inverted-square-ii, .inverted-red-square, .D-shape-container, 
+.blue-red-lemniscate, .two-half-triangles, .red-D-shape, .fourth-cell, 
+.connected-shapes, .yellow-lemniscate-background, .project-cell-viii {
   display: none;
 }
 
@@ -451,15 +456,193 @@ h3 {
   display: none;
 }
 
+/* Modal */
+.proj-name-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.close-btn-modal {
+  align-self: flex-end;
+  width: 1.25em;
+  height: 1.25em;
+  margin-top: 1.25em;
+  margin-right: 1.25em;
+} 
+
+.proj-name-modal {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 80%;
+  color: #1a2236;
+  margin-top: 0; 
+  margin-left: 21px;
+}
+
+.project-modal {
+  display: none; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;  
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  margin: 11px;     
+}
+
+.btn-container-modal {
+  display: flex;
+  margin-top:0;
+  margin-left: 21px;
+}
+
+.tech-btn-1, .tech-btn-2, .tech-btn-3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
+  border: 0.516669px solid #1A2236;
+  margin-right: 0.625em;
+  margin-top: 0;
+  padding: 0.375em 0.625em;  
+}
+
+.proj-img-container {
+  position:relative;
+  margin-bottom: 1.875em;  
+  margin-left: 21px;  
+}
+
+.project-image {
+  position:relative;
+  z-index:0;
+  max-width: 100%;
+  margin-top: 1.125em;
+  margin-bottom: 0;
+}
+
+.left-carousel, .right-carousel {
+  position: absolute;
+  z-index:1;
+  width: 12.56px;
+  height: 6.28px; 
+  top: 50%;
+}
+
+.left-carousel {
+  left:2%;    
+}
+
+.right-carousel {
+  right:2%;    
+}
+
+.small-imgs-container {
+  display: flex;    
+}
+
+.project-small-image {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-size: cover;
+  width: 80px;
+  height: 41px;
+  background-repeat: no-repeat;
+  max-width: 25%; 
+
+}
+
+.project-small-image:first-child{
+  box-sizing: border-box;
+  border: 1px solid #1a2236;
+}
+
+.lower-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.9375em auto; 
+}
+
+.proj-descr {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 1.6875em;
+  color: #1a2236;
+  margin-left: -9px;
+  margin-right: -9px; 
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.live-div, .source-div {
+  position: relative;
+  align-self: center;
+}
+
+.live-btn, .source-btn {
+  position: relative;
+  width: 15.375em;
+  height: 3.1875em;
+  z-index: 0;
+  top:0;
+  left: 0;
+  background: #fff;
+  text-align: center;
+  padding-left:22px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1a2236; 
+  border: 1px solid #1a2236;
+  margin: 9px 37px 20px 37px;    
+}
+
+.live-btn:hover, .live-btn:focus,
+.source-btn:hover, .source-btn:focus {
+  background: #1a2236;
+  color:#fff;
+  cursor: pointer;
+}
+
+.livecode-img, .github-img {
+  position:absolute;
+  top: 22px;
+  left:240px;
+  margin-left:0px;
+  z-index: 1;
+}
+
 @media only screen and (min-width: 768px) {
   /*** Elements visible in desktop version ***/
   /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .with-dots-background, .with-image-background, .half-circle-background, .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, .different-shapes, .different-shapes-ii, .get-cv-btn-second {
+  .with-dots-background, .with-image-background, .half-circle-background,
+  .joined-rectangles, .img-dots-i, .img-dots-ii, .get-cv-btn, 
+  .different-shapes, .different-shapes-ii, .get-cv-btn-second, 
+  .prev-btn, .next-btn {
     display: block;
   }
 
   /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .upper-triangle, .lemniscate-background, .inverted-square, .inverted-square-ii, .inverted-red-square, .D-shape-container, .blue-red-lemniscate, .two-half-triangles, .red-D-shape, .fourth-cell, .connected-shapes, .yellow-lemniscate-background, .project-cell-viii {
+  .upper-triangle, .lemniscate-background, .inverted-square, 
+  .inverted-square-ii, .inverted-red-square, .D-shape-container, 
+  .blue-red-lemniscate, .two-half-triangles, .red-D-shape, .fourth-cell, 
+  .connected-shapes, .yellow-lemniscate-background, .project-cell-viii {
     display: block;
   }
 
@@ -1230,4 +1413,156 @@ h3 {
   .get-resume-btn, .get-resume, .geomerty_1, .geomerty_2, .mobile-navigation, .menu-container, .active-menu, .close_btn,.with-image-background-ii, .project-ii, .project-iii, .project-iv, .project-vi {
     display: none;
   }
+
+  /* Modal */
+  .project-modal {
+    display: none; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    max-width: 100%;
+    height: 100%; 
+  }
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    border: 70px solid #1a2236;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    padding: 3.75em;     
+  }
+
+  .proj-name-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .proj-name-modal {
+    font-size: 3.75em;    
+  }
+
+  .close-btn-modal {
+    justify-content: flex-end;
+    width: 2em;
+    height: 2em;
+  } 
+
+  .btn-container-modal {
+    display: flex;
+    margin-top:0;
+  }
+
+  .tech-btn-1, .tech-btn-2, .tech-btn-3 {
+    font-size: 1.25em;
+    border: 1px solid #1a2236;
+    margin-right: 1.25em;
+    padding: 0.75em 1.25em;
+  }
+
+  .proj-img-container {
+    position:relative;
+    margin-bottom: 4.375em;    
+  }
+
+  .project-image {    
+    width: 73.6875em;    
+    margin-top: 2.5em;
+  }
+
+  .left-carousel, .right-carousel {
+    height: 3.375em;
+    width: 1.725em;
+    top: 40%;
+  }
+
+  .project-small-image {
+    height: 10.75em;
+    width: 18.4375em;
+  }
+
+  .project-small-image:first-child{
+    box-sizing: border-box;
+    border: 1px solid #1a2236;
+  }
+
+  .lower-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8em auto; 
+  }
+
+  .proj-descr {
+    margin-bottom: 2.5em;
+    
+  }
+
+  .link-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .live-div, .source-div {
+    position: relative;
+    margin-right: 2em;   
+  }
+
+  .live-btn, .source-btn {
+    position: relative;
+    width: 15.375em;
+    height: 3.1875em;
+    max-width: 100%;
+    z-index: 0;
+    top:0;
+    left: 0;
+    background: #fff;
+    text-align: left;
+    padding-left:22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236; 
+    border: 1px solid #1a2236;
+    margin-bottom: 120px;    
+  }
+
+  .live-btn:hover, .live-btn:focus,
+  .source-btn:hover, .source-btn:focus {
+    background: #1a2236;
+    color:#fff;
+    cursor: pointer;
+  }
+
+  .livecode-img, .github-img {
+    position:absolute;
+    top: 16px;
+    left:200px;
+    margin-left:0px;
+    z-index: 1;
+  }
+
+  .btns-container {
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .prev-btn, .next-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+    background: #fff;
+    border: none;
+    cursor: pointer
+  }
+
+  .prev-btn:disabled, .next-btn:disabled {
+    cursor: auto;
+    color: #ccc;
+  }  
 }
