@@ -223,13 +223,13 @@ let img_arr = [
             },
             {
                 img_name: "left-carousal",
-                src: "images/carousal_left.png",
-                alt: "Left carousal"
+                src: "images/left_carousel_sml.png",
+                alt: "Left carousel"
             },
             {
                 img_name: "right-carousal",
-                src: "images/carousal_right.png",
-                alt: "Right carousal"
+                src: "images/right_carousel_sml.png",
+                alt: "Right carousel"
             },  
             {
                 img_name: "livecode-img",
@@ -244,6 +244,8 @@ let img_arr = [
         ]
 
 // Function to create images dynamically
+
+let container = document.querySelector('.container');
 
 function createImage(i){
     let img1 = document.createElement('img');
@@ -293,13 +295,13 @@ function createGridContainer(i){
         displayModal(i);
     });
     let modal = createModal(i);
-    let container = document.querySelector('.container');
+    
     div.appendChild(h3);
     div.appendChild(span1);
     div.appendChild(span2);
     div.appendChild(span3);
     div.appendChild(btn);
-    container.insertBefore(modal, container.firstChild);    
+    document.body.insertBefore(modal, document.body.firstChild);    
     return div;
 }
 
@@ -418,7 +420,7 @@ function createModal(i){
     project_modal.appendChild(modal_content);
     
     modal_close.onclick = function() {
-        project_modal.style.display = "none";
+        hideModal(i);
       }
     return project_modal;
 }
@@ -426,11 +428,14 @@ function createModal(i){
 function displayModal(i){
     let modal = document.getElementById('modal-'+i);
     modal.style.display = 'block';
+    container.style.display = 'none';
+    window. scrollTo(0, 0);
 }
 
 function hideModal(i){
     let modal = document.getElementById('modal-'+i);
-    modal.style.display = 'none';
+    container.style.display = 'block';
+    modal.style.display = 'none';       
 }
 
 //Create projects dynamically
