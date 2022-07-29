@@ -517,7 +517,7 @@ projects.appendChild(div16);
 // Form validation 
 const emailEl = document.getElementById('email-input');
 const form = document.querySelector('.contact-form');
-const error = emailEl.parentElement.querySelector('p');
+const error = form.querySelector('small');
 
 form.addEventListener('submit', (event)=>{
     event.preventDefault();
@@ -530,8 +530,7 @@ form.addEventListener('submit', (event)=>{
     if(!isLowerCase(email)){
         message = "Email should be in lower case.";
         error.textContent = message + "\n Suggested: " + email.toLowerCase();
-        error.style.color = 'red';
-        error.style.marginLeft = '12px';
+        error.classList.add('error');        
         emailEl.style.border = '2px solid red';        
     }else{
         form.submit();
