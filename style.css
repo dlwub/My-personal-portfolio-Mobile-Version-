@@ -1629,5 +1629,10 @@ h3 {
   }
 
   /* Form validation */
-  
+  .error {
+    color: red;
+    margin-left: 12px;
+    text-align: center;
+    margin-top: 15px;
+  }
 }
