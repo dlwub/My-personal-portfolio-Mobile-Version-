@@ -514,14 +514,17 @@ projects.appendChild(div15);
 projects.appendChild(img10);
 projects.appendChild(div16);
 
-// Form validation 
+// Form validation and data storage
+const nameEl = document.getElementById('name-input');
 const emailEl = document.getElementById('email-input');
+const messageEl = document.getElementById('message-input');
 const form = document.querySelector('.contact-form');
 const error = form.querySelector('small');
 
 form.addEventListener('submit', (event)=>{
     event.preventDefault();
     
+    // Email validation
     const isLowerCase = value => {
         return value === value.toLowerCase();
     }
@@ -533,6 +536,12 @@ form.addEventListener('submit', (event)=>{
         error.classList.add('error');        
         emailEl.style.border = '2px solid red';        
     }else{
+        // Data storage
+        let dataObj = {};
+        dataObj['name'] = nameEl.value;             
+        dataObj['email'] = emailEl.value;
+        dataObj['message'] = messageEl.value;
+        localStorage.setItem('data', JSON.stringify(dataObj));
         form.submit();
     }
 
@@ -541,5 +550,14 @@ form.addEventListener('submit', (event)=>{
         error.textContent = "";
     });
 })
+//Data retrieval on page load 
+window.addEventListener('load', ()=>{
+    let dataStored = JSON.parse(localStorage.getItem('data'));    
+    nameEl.value = dataStored['name'];
+    emailEl.value = dataStored['email'];
+    messageEl.value = dataStored['message'];    
+})
+
+
 
 
