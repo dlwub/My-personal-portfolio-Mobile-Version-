@@ -551,7 +551,7 @@ form.addEventListener('submit', (event)=>{
     });
 })
 //Data retrieval on page load 
-window.addEventListener('load', (event)=>{
+window.addEventListener('load', ()=>{
     let dataStored = JSON.parse(localStorage.getItem('data'));    
     nameEl.value = dataStored['name'];
     emailEl.value = dataStored['email'];
